@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="34">
+ <tileset firstgid="1" source="interieur_maison_complet.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="12" height="12">
+  <data encoding="csv">
+1,2,3,3,3,3,3,3,3,3,4,1,
+33,302,302,302,936,937,938,939,302,302,302,37,
+2147483717,302,302,302,968,969,970,971,302,302,302,69,
+2147483717,998,998,998,867,1001,1002,1003,998,998,998,69,
+2147483717,999,1715,999,999,999,999,999,999,999,1715,69,
+2147483717,999,999,999,999,999,999,999,999,999,999,69,
+2147483717,999,999,999,999,1715,999,999,999,999,999,69,
+2147483717,999,999,1715,999,999,999,999,999,999,999,69,
+2147483717,999,999,999,999,999,999,999,999,999,999,69,
+2147483717,999,999,999,999,999,999,999,1715,999,999,69,
+2147483717,999,999,999,999,999,999,999,999,999,999,69,
+161,999,999,999,999,999,999,999,999,999,999,69
+</data>
+ </layer>
+ <layer id="2" name="Calque de Tuiles 2" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,42,0,0,0,0,0,0,0,0,44,0,
+0,139,139,139,0,0,0,0,139,139,139,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,886,0,0,0,
+0,934,935,0,0,0,0,0,918,919,920,0,
+0,966,967,0,0,0,0,0,950,951,952,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,1733,1734,0,0,0,0,855,856,857,0,0,
+0,1765,1766,0,0,0,0,887,888,889,0,0,
+0,0,1797,1798,0,0,0,0,0,0,0,0,
+161,162,166,166,163,0,0,164,166,166,2147483810,2147483809
+</data>
+ </layer>
+ <objectgroup id="4" name="collision">
+  <object id="1" type="collision" x="14.75" y="0" width="164.5" height="46.25"/>
+  <object id="2" type="collision" x="-1.75" y="-1.5" width="17" height="195"/>
+  <object id="3" type="collision" x="177" y="0" width="17" height="195"/>
+  <object id="4" type="collision" x="112.5" y="184.5" width="69" height="22"/>
+  <object id="5" type="collision" x="10.75" y="184" width="69" height="22"/>
+  <object id="6" type="collision" x="169.5" y="178.25" width="69" height="22"/>
+  <object id="7" type="collision" x="-47.25" y="177" width="69" height="22"/>
+  <object id="8" type="arbre" x="11.5" y="47.5" width="165.75" height="24.75"/>
+  <object id="10" type="collision" x="70" y="190.75" width="55.5" height="20.75"/>
+  <object id="15" type="collision" x="14.9091" y="101.091" width="31.8182" height="8"/>
+  <object id="16" type="arbre" x="58" y="108" width="31.4545" height="27.2727"/>
+  <object id="17" type="collision" x="14.1818" y="144.399" width="31.6364" height="14.8738"/>
+  <object id="18" type="arbre" x="13.0909" y="154.545" width="53.8182" height="32"/>
+  <object id="19" type="arbre" x="13.6364" y="106.909" width="35.8182" height="15.4545"/>
+  <object id="21" type="arbre" x="128" y="111.273" width="48.7273" height="17.6364"/>
+  <object id="22" type="collision" x="128.182" y="91.0909" width="49.0909" height="19.4545"/>
+  <object id="25" type="collision" x="127.636" y="79.6364" width="16.1818" height="15.0909"/>
+  <object id="26" type="collision" x="114.545" y="148.909" width="45.8182" height="10.5455"/>
+  <object id="27" type="arbre" x="114" y="157.818" width="46.3636" height="18.5455"/>
+  <object id="28" type="collision" x="135.273" y="142.545" width="17.6364" height="12"/>
+  <object id="29" name="forgeron_2" x="91.6085" y="53.1235" width="19.5967" height="18.8883"/>
+  <object id="31" name="forgeron_1" x="91.9626" y="125.29" width="19.5967" height="18.8883"/>
+  <object id="32" name="forgeron_4" x="15.937" y="123.955" width="19.5967" height="18.8883"/>
+  <object id="33" name="forgeron_3" x="92.1987" y="125.135" width="19.5967" height="18.8883"/>
+ </objectgroup>
+ <objectgroup id="5" name="enter">
+  <object id="13" name="enter_forge" x="77.2614" y="160.773">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="exit">
+  <object id="14" name="exit_forge" x="79.25" y="180.875" width="34" height="10.5"/>
+ </objectgroup>
+</map>

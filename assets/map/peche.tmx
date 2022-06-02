@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="38">
+ <tileset firstgid="1" source="interieur_maison_complet.tsx"/>
+ <layer id="2" name="Calque de Tuiles 2" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,35,35,35,35,35,35,35,35,0,0,
+0,66,67,67,67,67,67,67,67,67,68,0,
+0,98,99,99,99,99,99,99,99,99,100,0,
+0,199,200,201,200,201,200,201,200,201,231,0,
+0,232,232,233,232,233,232,233,232,233,233,0,
+0,264,264,265,264,265,264,265,264,265,265,0,
+0,232,233,232,233,232,233,232,233,232,233,0,
+0,264,265,264,265,264,265,264,265,264,265,0,
+0,232,233,232,233,232,233,232,233,232,233,0,
+0,264,265,264,265,264,265,264,265,264,265,0,
+0,232,233,232,233,232,233,232,233,232,233,0
+</data>
+ </layer>
+ <layer id="1" name="Calque de Tuiles 1" width="12" height="12">
+  <data encoding="csv">
+1,2,3,3,3,3,3,3,3,3,2147483650,2147483649,
+33,34,35,35,35,35,902,35,35,35,2147483682,2147483681,
+65,0,67,67,67,67,67,67,580,581,0,69,
+65,0,2137,99,99,557,558,559,612,613,0,69,
+65,737,2169,0,0,589,590,591,644,645,132,69,
+65,769,0,0,0,624,625,626,0,0,664,69,
+65,801,0,0,0,656,657,658,0,695,696,69,
+65,833,0,0,0,688,689,690,0,727,728,69,
+65,865,0,0,0,1180,0,0,0,1036,1037,69,
+65,0,0,0,0,0,0,1661,1664,1068,1069,69,
+65,0,0,0,0,0,0,1789,1792,1100,1101,69,
+161,162,166,166,163,0,0,164,166,166,2147483810,2147483809
+</data>
+ </layer>
+ <layer id="3" name="Calque de Tuiles 3" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,965,0,0,0,0,0,0,0,0,0,
+0,0,997,1390,901,0,1250,1251,835,0,0,0,
+0,0,0,1422,0,0,0,0,0,0,0,0,
+0,1046,0,0,0,0,0,0,0,0,0,0,
+0,1391,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,335,0,1346,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="exit">
+  <object id="33" name="enter_peche" x="62.3636" y="168.182">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="enter">
+  <object id="32" name="exit_peche" x="78.2955" y="181.598" width="36.3182" height="10.9852"/>
+ </objectgroup>
+ <objectgroup id="6" name="collision">
+  <object id="1" type="collision" x="-2" y="184" width="81" height="17"/>
+  <object id="2" type="collision" x="113.167" y="183.833" width="81" height="17"/>
+  <object id="3" type="collision" x="-0.833333" y="0.5" width="193" height="62.6667"/>
+  <object id="4" type="collision" x="176.5" y="62.8333" width="19" height="125.667"/>
+  <object id="5" type="collision" x="-2.5" y="62.1665" width="19" height="125.667"/>
+  <object id="6" type="collision" x="3.75" y="179.416" width="16.5" height="15.167"/>
+  <object id="7" type="collision" x="170" y="178.417" width="16.5" height="15.167"/>
+  <object id="8" type="collision" x="16.2955" y="109.144" width="16.5" height="33.8943"/>
+  <object id="9" type="collision" x="81.0227" y="121.689" width="13.5909" height="21.8943"/>
+  <object id="10" type="collision" x="82.8409" y="106.053" width="43.7727" height="20.0761"/>
+  <object id="11" type="collision" x="144.114" y="142.326" width="41.5909" height="33.7125"/>
+  <object id="12" type="collision" x="160.841" y="83.7801" width="33.0454" height="60.6216"/>
+  <object id="13" type="collision" x="145.659" y="111.962" width="15.7727" height="31.167"/>
+  <object id="14" type="collision" x="128.75" y="56.1438" width="31.2272" height="21.7124"/>
+  <object id="15" type="collision" x="160.932" y="56.1438" width="10.8636" height="10.2579"/>
+  <object id="16" type="collision" x="163.659" y="58.5074" width="10.8636" height="10.2579"/>
+  <object id="17" type="collision" x="166.386" y="61.7801" width="10.8636" height="10.2579"/>
+  <object id="18" type="collision" x="168.932" y="64.3256" width="10.8636" height="10.2579"/>
+  <object id="19" type="collision" x="172.023" y="66.3256" width="10.8636" height="10.2579"/>
+  <object id="20" type="collision" x="159.477" y="67.7801" width="25.2272" height="10.2579"/>
+  <object id="21" type="collision" x="9.84093" y="57.2347" width="39.5909" height="18.2579"/>
+  <object id="22" type="collision" x="87.1137" y="59.0529" width="43.4091" height="18.4397"/>
+  <object id="23" type="arbre" x="80.3864" y="143.235" width="15.7727" height="16.8034"/>
+  <object id="25" type="arbre" x="94.2955" y="126.144" width="32.1363" height="16.8034"/>
+  <object id="26" type="arbre" x="144.114" y="175.962" width="34.1363" height="16.8034"/>
+  <object id="27" type="arbre" x="86.4773" y="77.0528" width="38.3182" height="13.5307"/>
+  <object id="28" type="arbre" x="129.205" y="77.0528" width="30.3182" height="16.8034"/>
+  <object id="29" type="arbre" x="33.0227" y="74.5074" width="15.7727" height="16.8034"/>
+  <object id="30" type="arbre" x="15.75" y="142.507" width="16.8636" height="18.2579"/>
+  <object id="31" type="arbre" x="106.295" y="135.78" width="40.3182" height="49.7125"/>
+  <object id="35" type="arbre" x="48.8409" y="62.871" width="31.7727" height="16.8034"/>
+  <object id="36" type="arbre" x="159.75" y="76.5074" width="17.4091" height="16.8034"/>
+  <object id="37" name="fisher_man_1" x="50.5263" y="81.2199" width="13.4579" height="14.4024"/>
+ </objectgroup>
+</map>

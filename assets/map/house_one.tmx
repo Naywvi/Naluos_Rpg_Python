@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="15" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="29">
+ <tileset firstgid="1" source="bird.tsx"/>
+ <tileset firstgid="865" source="normal.tsx"/>
+ <tileset firstgid="2840" source="interieur_maison1.tsx"/>
+ <tileset firstgid="3080" source="interieur_maison_complet.tsx"/>
+ <tileset firstgid="5256" source="house_one.tsx"/>
+ <tileset firstgid="5391" source="house_one_top.tsx"/>
+ <layer id="9" name="background" width="15" height="9">
+  <data encoding="csv">
+5256,5257,5258,5259,5260,5261,5262,5263,5264,5265,5266,5267,5268,5269,5270,
+5271,5272,5273,5274,5275,5276,5277,5278,5279,5280,5281,5282,5283,5284,5285,
+5286,5287,5288,5289,5290,5291,5292,5293,5294,5295,5296,5297,5298,5299,5300,
+5301,5302,5303,5304,5305,5306,5307,5308,5309,5310,5311,5312,5313,5314,5315,
+5316,5317,5318,5319,5320,5321,5322,5323,5324,5325,5326,5327,5328,5329,5330,
+5331,5332,5333,5334,5335,5336,5337,5338,5339,5340,5341,5342,5343,5344,5345,
+5346,5347,5348,5349,5350,5351,5352,5353,5354,5355,5356,5357,5358,5359,5360,
+5361,5362,5363,5364,5365,5366,5367,5368,5369,5370,5371,5372,5373,5374,5375,
+5376,5377,5378,5379,5380,5381,5382,5383,5384,5385,5386,5387,5388,5389,5390
+</data>
+ </layer>
+ <layer id="12" name="objets" width="15" height="9">
+  <data encoding="csv">
+5391,5392,5393,5394,5395,5396,5397,5398,5399,5400,5401,5402,5403,5404,0,
+5406,5407,5408,5409,5410,5411,5412,5413,5414,5415,5416,5417,5418,5419,0,
+5421,5422,5423,5424,5425,5426,5427,5428,5429,5430,5431,5432,5433,5434,0,
+5436,5437,5438,5439,5440,5441,5442,5443,5444,5445,5446,5447,5448,5449,0,
+5451,5452,5453,5454,5455,5456,5457,5458,5459,5460,5461,5462,5463,5464,0,
+5466,5467,5468,5469,5470,5471,5472,5473,5474,5475,5476,5477,5478,5479,0,
+5481,5482,5483,5484,5485,5486,5487,5488,5489,5490,5491,5492,5493,5494,0,
+5496,5497,5498,5499,5500,5501,5502,5503,5504,5505,5506,5507,5508,5509,0,
+5511,5512,5513,5514,5515,5516,5517,5518,5519,5520,5521,5522,5523,5524,0
+</data>
+ </layer>
+ <layer id="14" name="lit" width="15" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,3498,3499,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="exit">
+  <object id="4" name="exit_house_one" x="95.625" y="137.25" width="49.375" height="9.375"/>
+ </objectgroup>
+ <objectgroup id="2" name="enter">
+  <object id="3" name="enter_house_one" x="115.511" y="107.023">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="collision">
+  <object id="7" type="arbre" x="49.7273" y="111.727" width="41.2727" height="16.0909"/>
+  <object id="8" type="collision" x="50.2728" y="91.2727" width="30.4545" height="20.1818"/>
+  <object id="9" type="collision" x="80" y="96.1818" width="13.6364" height="15.0909"/>
+  <object id="10" type="collision" x="145.091" y="136.727" width="94.7273" height="18"/>
+  <object id="11" type="collision" x="192.182" y="114.727" width="47.4545" height="28.5455"/>
+  <object id="12" type="collision" x="225.818" y="-0.545455" width="14" height="144"/>
+  <object id="13" type="collision" x="175.818" y="7.45455" width="49.2727" height="71.2727"/>
+  <object id="14" type="collision" x="10.3636" y="20" width="166.364" height="44.3636"/>
+  <object id="15" type="collision" x="-2.18182" y="134.727" width="98" height="12.3636"/>
+  <object id="16" type="collision" x="9.81818" y="53.8182" width="22" height="91.0909"/>
+  <object id="17" type="collision" x="90.3636" y="146.364" width="59.6364" height="8.72727"/>
+  <object id="18" type="collision" x="148.909" y="130.364" width="9.45455" height="12.3636"/>
+  <object id="19" type="arbre" x="176.091" y="77.9546" width="49.0909" height="20.6364"/>
+  <object id="20" name="pink_girl_1" x="207.883" y="79.5846" width="16.1435" height="15.5771"/>
+  <object id="21" name="pink_girl_2" x="145.148" y="80.1511" width="15.8603" height="15.1924"/>
+  <object id="22" name="pink_girl_3" x="144.159" y="64.8572" width="15.8603" height="4.59452"/>
+  <object id="23" name="pink_girl_4" x="96.1818" y="65.2727" width="5.63636" height="14.9091"/>
+  <object id="26" name="pink_girl_5" x="96.1818" y="112.364" width="16" height="16"/>
+  <object id="27" name="pink_girl_6" x="128.545" y="112.182" width="14.5455" height="15.8182"/>
+  <object id="28" name="pink_girl_7" x="128.182" y="79.8182" width="16.9091" height="15.6364"/>
+ </objectgroup>
+</map>

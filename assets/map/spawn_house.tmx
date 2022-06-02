@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="39">
+ <tileset firstgid="1" source="interieur_maison_complet.tsx"/>
+ <layer id="1" name="background" width="10" height="10">
+  <data encoding="csv">
+1,2147483652,3,3,3,3,3,3,4,1,
+2147483685,2147483684,35,35,35,35,35,35,36,37,
+2147483717,2147483716,67,67,67,67,67,67,68,69,
+65,2147483748,99,99,99,99,99,99,100,69,
+65,575,576,575,576,575,576,575,576,69,
+65,607,608,607,608,607,608,607,608,69,
+65,639,640,639,640,639,640,639,640,69,
+65,607,608,607,608,607,608,607,608,69,
+65,639,640,639,640,639,640,639,640,69,
+161,607,608,607,608,607,608,607,608,2147483809
+</data>
+ </layer>
+ <layer id="2" name="items" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,570,0,0,
+0,0,1110,370,599,600,601,602,0,0,
+0,130,1142,402,631,632,633,634,132,0,
+0,854,857,0,0,0,0,0,0,0,
+0,888,889,0,0,0,0,1036,1037,0,
+0,0,1180,0,0,0,0,1068,1069,0,
+0,0,0,0,1150,1152,0,1100,1101,0,
+0,162,166,163,1182,1184,164,166,2147483810,0
+</data>
+ </layer>
+ <layer id="3" name="top" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,1330,1331,0,0,0,0,0,0,
+0,0,1362,1363,0,0,0,0,0,0,
+0,0,0,0,1031,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="collisions">
+  <object id="2" type="collision" x="-1.5" y="156" width="163" height="9.75"/>
+  <object id="4" type="collision" x="-8.5" y="34" width="23.75" height="124.75"/>
+  <object id="6" type="collision" x="9.25" y="144.875" width="12.75" height="14.125"/>
+  <object id="7" type="collision" x="10.875" y="67" width="7.5" height="11.25"/>
+  <object id="8" type="collision" x="13.125" y="61" width="10.875" height="11.5"/>
+  <object id="9" type="collision" x="22.375" y="57.875" width="8.875" height="9"/>
+  <object id="10" type="collision" x="28" y="55.25" width="110.5" height="7.5"/>
+  <object id="11" type="collision" x="32.75" y="64" width="95.75" height="13.75"/>
+  <object id="12" type="collision" x="124.727" y="59.8182" width="12.0909" height="9.18182"/>
+  <object id="13" type="collision" x="133.273" y="64.9091" width="8.09091" height="8"/>
+  <object id="14" type="collision" x="139.091" y="68.6364" width="11.4545" height="12.3636"/>
+  <object id="15" type="collision" x="111.875" y="109.625" width="33.625" height="34.375"/>
+  <object id="17" type="collision" x="139.125" y="142.625" width="11.625" height="14.75"/>
+  <object id="18" type="collision" x="144.125" y="62.5" width="11.25" height="48.25"/>
+  <object id="19" type="collision" x="15.125" y="88.625" width="32.875" height="13.25"/>
+  <object id="20" type="collision" x="12.1364" y="100.5" width="34.7386" height="17"/>
+  <object id="21" type="collision" x="35.125" y="117.625" width="10.125" height="8.5"/>
+  <object id="22" type="arbre" x="64.625" y="78" width="63.75" height="15.625"/>
+  <object id="23" type="arbre" x="111.25" y="143.75" width="39.5" height="13.75"/>
+  <object id="24" type="arbre" x="34.25" y="125.375" width="12.375" height="12.625"/>
+  <object id="29" type="arbre" x="32.25" y="77" width="15.25" height="6.35227"/>
+  <object id="31" type="arbre" x="47.125" y="76.375" width="18.125" height="9.5"/>
+  <object id="32" type="arbre" x="52.625" y="80" width="13.75" height="10.875"/>
+  <object id="36" type="collision" x="17" y="64.6875" width="15.25" height="15.6477"/>
+  <object id="37" type="arbre" x="128.375" y="65.1875" width="15.25" height="23.75"/>
+  <object id="38" type="arbre" x="61.5" y="122.063" width="38.5" height="34.7955"/>
+ </objectgroup>
+ <objectgroup id="8" name="exit">
+  <object id="34" name="exit_spawn_house" x="62.9091" y="155.728" width="33.9091" height="9.18182"/>
+ </objectgroup>
+ <objectgroup id="7" name="enter">
+  <object id="33" name="enter_spawn_house" x="67.4205" y="125.943">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="spawn">
+  <object id="35" name="spawn_player_world" x="99.2273" y="105.818">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
